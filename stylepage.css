@@ -1,0 +1,82 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family:Arial;
+    background: url(2.jpeg);
+    background-size: cover;
+}
+.Project{
+    width:300px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0,0,0,0.4) rgb(12, 12, 12), rgb(12, 12, 12), alpha);
+    text-align:center;
+
+}
+.Project h1
+{
+    color: rgb(14, 14, 14);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.Project input[type = "text"],.Project input[type = "password"]
+{
+
+border: 0;
+background: none;
+display: block;
+margin: 20px auto;
+text-align: center;
+border: 3px solid #34e98e;
+padding: 14px 10px;
+width:220px;
+outline:none;
+color:rgb(14, 14, 14);
+border-radius: 24px;
+transition: 0.25px;
+}
+
+.Project input[type = "text"]:focus,.Project input[type = "password"]:focus{
+    width: 270px;
+    border-color:  #34e98e;
+     
+}
+.Project input[type="submit"]{
+    border: 0;
+background: none;
+display: block;
+margin: 20px auto;
+text-align: center;
+border: 3px solid  #34e98e;
+padding: 14px 35px;
+outline:none;
+color:rgb(14, 14, 14);
+border-radius: 24px;
+transition: 0.25px;
+cursor: pointer;
+}
+.Project input[type="submit"]:hover{
+background: #f5f5f5;
+}
+
+.Project input[type="submit"]{
+    border: 0;
+background: none;
+display: block;
+margin: 20px auto;
+text-align: center;
+border: 3px solid  #34e98e;
+padding: 14px 35px;
+outline:none;
+color:rgb(14, 14, 14);
+border-radius: 24px;
+transition: 0.25px;
+cursor: pointer;
+}
+.Project input[type="submit"]:hover{
+background: #f5f5f5;
+}
